@@ -722,7 +722,7 @@ $("#onlyStar").onclick=e=>{ const b=e.currentTarget; b.setAttribute("aria-presse
 
 /* ---------- Inicio ---------- */
 $("#nF").textContent=F.length;
-$("#pfoot").textContent=`Fuente: áreas sustantivas de la Secretaría de Economía. ${F.length} fichas, todas por validar. Las cifras de las respuestas siguen a cada ficha temática; cuando el resumen difiere, el asistente lo señala. Las preguntas y los fragmentos citados se procesan con la API de Claude; la respuesta rápida usa Sonnet 5.5 y la detenida, Opus 5.5. Si Claude no responde, la página consulta a OpenAI (gpt-5-mini) y lo indica en la respuesta.`;
+$("#pfoot").textContent=`Fuente: áreas sustantivas de la Secretaría de Economía. ${F.length} fichas validadas. Las cifras de las respuestas siguen a cada ficha temática; cuando el resumen difiere, el asistente lo señala. Las preguntas y los fragmentos citados se procesan con la API de Claude; la respuesta rápida usa Sonnet 5.5 y la detenida, Opus 5.5. Si Claude no responde, la página consulta a OpenAI (gpt-5-mini) y lo indica en la respuesta.`;
 updCount(); renderEmpty(); renderTablero(); renderIndex(); route();
 }
 </script>
